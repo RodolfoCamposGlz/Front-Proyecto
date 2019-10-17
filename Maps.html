@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"> 
+    <meta name="viewport" content="width=500, initial-scale=1"> 
+    <title>Startup Creator</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+    <!-- css -->
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
+  
+    <title>Map</title>
+</head>
+<body>
+<!-- NAV BAR -->
+<div class="bg-maps navbar navbar-expand-lg ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+                            <img src="https://seeklogo.com/images/U/uber-logo-2BB8EC4342-seeklogo.com.png" alt="Logo" style="width:50px;">
+        </a>
+        </div>
+        <input id="search-input-maps" type="text" placeholder="Busca tu universidad o empresa" name="search">
+        <button class="search-button"><i class="far fa-paper-plane fa-lg"></i></button> 
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto center-collapse">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled " href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Filters-->
+<!-- <div class="sliderContainer">
+    <input type="range" min="0" max="100" value="0" id="myRange" class="slider">
+    <p class="p-slider">value: <span id="value"></span></p>
+</div> -->
+
+
+<div class=".container-main-filters">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="header-filter">
+                <div class="text-filter">
+                    Presupuesto
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 price-bar text-right">
+                    <span id=d1>$0</span>
+                </div>
+                <div class="col-8 bar-position">
+                    <div id="slider" class="slider" ></div>
+                </div>
+                <div class="col-2 price-bar text-left">
+                        <div id=d2>$5000</div>
+                </div>
+            </div>
+        </div>
+        <div class="header-filter">
+            <div class="text-filter">Roomies</div>
+        </div>
+            <div class="col-md-2">hola</div>
+            <div class="col-md-3">hola</div>
+            <div class="col-md-2">hola</div>
+
+    </div>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</body>
+</html>
